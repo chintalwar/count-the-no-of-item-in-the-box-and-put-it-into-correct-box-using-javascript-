@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/drag_drop_box.css">
+    <title>Drag the colour shape and placed it on on div</title>
+</head>
+<body>
+    <!--Div section for creating the center section-->
+    <div class = "center">
+
+        <!--Heading-->
+        <h1>Put the shapes into correct box</h1>
+
+        <!--For Draw the line-->
+        <hr><br>
+         
+        <!--Give the shapes box heading-->
+        <h4>Pick the shapes from here<h4>
+
+            <!--Div section for storing color shapes-->
+            <div class ="colorShape" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="img/blueCir.jfif" id ="bcircle" draggable="true" ondragstart="drag(event)">
+                <img src="img/greenCir.jfif" id ="gcircle" draggable="true" ondragstart="drag(event)">
+                <img src="img/redCir.png" id ="rcircle" draggable="true" ondragstart="drag(event)">
+                <img src="img/rectBlue.png" id ="brectangle" draggable="true" ondragstart="drag(event)">
+                <img src="img/rectGreen.jfif" id ="grectangle" draggable="true" ondragstart="drag(event)">
+                <img src="img/rectRed.jfif" id ="rrectangle" draggable="true" ondragstart="drag(event)">
+                <img src="img/sqrBlue.png" id ="sqrtblue" draggable="true" ondragstart="drag(event)">
+                <img src="img/sqrRed.png" id ="sqrtred" draggable="true" ondragstart="drag(event)">
+                <img src="img/sqrtGreen.png" id ="sqrtgreen" draggable="true" ondragstart="drag(event)">
+                <img src="img/triBlue.png" id ="triblue" draggable="true" ondragstart="drag(event)">
+                <img src="img/triGreen.png" id ="trigreen" draggable="true" ondragstart="drag(event)">
+                <img src="img/triRed.png" id ="trired" draggable="true" ondragstart="drag(event)">
+            </div>
+            <br>
+
+            <!--Differnt color div section-->
+            <div class="colorDiv" ondrop="drop(event)" ondragover="allowDrop(event)" id="red">
+                <h5 id ="redBox">RED COLOUR</h5>
+
+            </div>
+
+            <!--Differnt color div section-->
+            <div class="colorDiv" ondrop="drop(event)" ondragover="allowDrop(event)" id = "green">
+                <h5 id="greenBox">GREEN COLOUR</h5>
+
+            </div>
+
+            <!--Different color div section-->
+            <div class="colorDiv" ondrop="drop(event)" ondragover="allowDrop(event)" id ="blue">
+                <h5 id="blueBox">BLUE COLOUR</h5>
+
+            </div>
+        </div>
+
+        <!--For showing the count-->
+        <p id= "result"></p>
+        <p id= "result1"></p>
+        <p id= "result2"></p>
+        
+    <script type="text/javascript" src="js/drag_drop_box.js"></script>
+</html>

@@ -1,0 +1,60 @@
+.center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(235, 70, 147);
+    padding: 10px;
+    border-radius: 15%;
+    background-color:rgb(253, 212, 241);
+    color:rgb(235, 70, 147);
+    text-align: center;
+}
+hr{
+    color:olid rgb(235, 70, 147); 
+}
+
+.colorShape{
+    width:50%;
+    height: 200px;
+    margin:  auto; 
+    padding:2px;
+    border: 2px solid rgb(235, 70, 147);
+    border-radius: 15px;
+    background-color: rgb(248, 231, 242);
+}
+img{
+    width: 75px; 
+    height:35px;
+    margin: 10px;
+    float:left;
+    /*draggable:"true"*/
+}
+
+.colorDiv{
+    width:20%;
+    margin:40px; 
+    height: 80px;
+    border: 2px solid rgb(235, 70, 147);
+    float:left;
+    padding: 2px;
+    border-radius: 15px;
+
+}
+#redBox{
+    /*text-align: center;*/
+    margin:auto;
+    color:red;
+    float:left;
+}
+
+#greenBox{
+    text-align: center;
+    margin:auto;
+    color:green;
+    float:left;
+}
+#blueBox{
+    text-align: center;
+    margin:auto;
+    color:blue;
+    float:left;
+}
